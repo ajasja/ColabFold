@@ -23,8 +23,8 @@ python = ">=3.9"
 absl-py = ">=1.0.0"
 jax = { version = "^0.5.2", optional = true }
 matplotlib = "^3.8.4"
-tensorflow-cpu = { version = "^2.16.2", markers = "platform_machine != 'aarch64' and platform_machine != 'arm64'" }
-tensorflow = { version = "^2.16.2", markers = "platform_machine == 'aarch64' or platform_machine == 'arm64'" }
+tensorflow-cpu = { version = ">=2.16.2", markers = "platform_machine != 'aarch64' and platform_machine != 'arm64'" }
+tensorflow = { version = ">=2.16.2", markers = "platform_machine == 'aarch64' or platform_machine == 'arm64'" }
 biopython = "<1.86"
 numpy = "^2.0.2"
 pandas = "^2.2.2"
