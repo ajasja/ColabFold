@@ -20,7 +20,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = ">=3.9"
-absl-py = "^1.0.0"
+absl-py = ">=1.0.0"
 jax = { version = "^0.5.2", optional = true }
 matplotlib = "^3.8.4"
 tensorflow-cpu = { version = "^2.16.2", markers = "platform_machine != 'aarch64' and platform_machine != 'arm64'" }
